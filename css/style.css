@@ -1,13 +1,18 @@
 /* generle rules */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+/* Navbar*/
+.header_img{
+  width: 100%;
+  height: 30px;
+  padding: 5px 0;
 }
 
-.clearfix::after{
-  content: '';
-  display: table;
-  clear: both;
+.nav_black{
+  background-color: black;
+  text-align: right;
 }
 
+.nav_con_logo{
+  display: inline-block;
+  padding: 5px 10px;
+}
