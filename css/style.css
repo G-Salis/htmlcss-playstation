@@ -26,6 +26,10 @@
   background-position: center;
 }
 
-.gs_mgtop{
+.gs_mgjtop{
   margin-top: 210px;
+}
+
+.gs_mgctop{
+  margin-top: 100px;
 }
