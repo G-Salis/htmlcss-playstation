@@ -16,3 +16,16 @@
   display: inline-block;
   padding: 5px 10px;
 }
+
+/* Jumbotron */
+
+.gs_jumbotron{
+  margin-top: 116px;
+  background-image: url(../img/jumbo-bg.png);
+  background-size:cover;
+  background-position: center;
+}
+
+.gs_mgtop{
+  margin-top: 210px;
+}
