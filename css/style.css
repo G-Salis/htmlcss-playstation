@@ -26,6 +26,13 @@
   background-position: center;
 }
 
+.gs_new_releases{
+  margin-top: 116px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size:cover;
+  background-position: center;
+}
+
 .gs_mgjtop{
   margin-top: 210px;
 }
