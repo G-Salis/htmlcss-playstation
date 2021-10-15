@@ -71,7 +71,7 @@
 }
 
 .relief{
-  padding: 1rem .25rem;
+  padding: 1rem;
   filter: opacity(50%);
   transition: all 0.5s;
 }
@@ -96,6 +96,10 @@
 .relief:hover {
   filter: opacity(100%);
   padding-top: 0;
+}
+
+.relief:hover .img_outline{
+  outline: 0.25rem solid #0B5ED7;
 }
 
 .relief:hover .img_relief {
