@@ -63,13 +63,38 @@
   width: 100px;
 }
 
+.box_img img{
+
+  filter: opacity(50%);
+  transition: all 0.5s;
+
+}
+
 .relief{
-  padding: 1rem .25rem ;
+  padding: 1rem .25rem;
+  filter: opacity(50%);
+  transition: all 0.5s;
 }
 
 /* Hover */
+.black_outline:hover{
+  outline: 0.25rem solid #1C1F23;
+  
+}
+.orange_outline:hover{
+  outline: 0.25rem solid #DC3545;
+}
+
+.blue_outline:hover{
+  outline: 0.25rem solid #0B5ED7;
+}
+
+.white_outline:hover{
+  outline: 0.25rem solid white;
+}
 
 .relief:hover {
+  filter: opacity(100%);
   padding-top: 0;
 }
 
@@ -77,6 +102,7 @@
   box-shadow: 0px 1rem 1rem 0px #888888;
 }
 
-.opacity{
-  
+.box_img:hover img{
+  filter: opacity(100%);
 }
+
